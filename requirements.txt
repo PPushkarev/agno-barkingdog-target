@@ -1,5 +1,5 @@
 agno
 openai
-duckduckgo-search
+ddgs
 fastapi
 uvicorn[standard]
