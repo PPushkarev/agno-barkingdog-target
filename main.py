@@ -25,7 +25,7 @@ agent = Agent(
     model=OpenAIChat(id="gpt-4o-mini"),
     tools=[DuckDuckGoTools()],
     instructions=["You are a helpful assistant."],
-    add_history_to_messages=True,
+    num_history_messages=5,
     markdown=False,
 )
 
