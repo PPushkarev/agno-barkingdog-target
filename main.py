@@ -22,7 +22,6 @@ class AegisScanResponse(BaseModel):
 
 agent = Agent(
     name="Web Search Agent",
-    agent_id="web_search_agent",
     model=OpenAIChat(id="gpt-4o-mini"),
     tools=[DuckDuckGoTools()],
     instructions=["You are a helpful assistant."],
